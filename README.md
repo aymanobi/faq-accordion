@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./accordion.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/aymanobi/faq-accordion](https://github.com/aymanobi/faq-accordion)
+- Live Site URL: [https://faq-accordion-ten-dusky.vercel.app/](https://faq-accordion-ten-dusky.vercel.app/)
 
 ## My process
 
