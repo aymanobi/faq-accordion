@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    justify-self: end;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    max-width: 1440px;
+    margin: auto;
+    min-height: 100vh;
+    background-color: var(--Light-pink);
+}
+
+header {
+    height: 320px;
+    max-width: 100%;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section {
+    min-height: calc(100vh - 320px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.faq {
+    width: 45%;
+    min-height: 300px;
+    margin: auto;
+    margin-top: -150px;
+    margin-bottom: 25px;
+    padding: 15px;
+    position: relative;
+    background-color: var(--White);
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.faq .faq_header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.faq_header h1 {
+    font-size: 42px;
+    margin-left: 10px;
+}
+
+.ques_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.question {
+    margin: 10px auto;
+    padding: 5px;
+    border-bottom: 1px solid var(--Light-pink);
+}
+
+.question:nth-child(4) {
+    border: none;
+}
+
+.answer {
+    display: none;
+}
+
+p {
+    color: var(--Grayish-purple);
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px 0;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+
+.ques_heading {
+    color: var(--Dark-purple);
+}
+
+.ques_heading:hover {
+    color: var(--Grayish-purple);
+    color: #AD28EB;
+}
+
+@media only screen and (max-width: 600px) {
+    .faq {
+        width: 90%;
+    }
+}
